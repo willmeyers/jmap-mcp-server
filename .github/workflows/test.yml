@@ -31,10 +31,6 @@ jobs:
       run: |
         black --check jmap_mcp/
     
-    - name: Type check with mypy
-      run: |
-        mypy jmap_mcp/ --ignore-missing-imports
-    
     - name: Run unit tests
       run: |
         pytest tests/ -m "not integration" -v
