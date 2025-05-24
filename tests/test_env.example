@@ -1,0 +1,22 @@
+# Test Environment Configuration
+# Copy this to tests/.env.test or set environment variables directly for integration testing
+
+# Your real Fastmail auth token for integration tests
+# Get this from Fastmail Settings -> Security -> App Passwords
+# Make sure the app password has JMAP access enabled
+FASTMAIL_AUTH_TOKEN_TEST=your_real_fastmail_token_here
+
+# Alternative: Use jmapc's environment variable format
+# JMAP_HOST=api.fastmail.com
+# JMAP_API_TOKEN=your_real_fastmail_token_here
+
+# Test configuration
+# Set to "true" to run integration tests that hit real Fastmail API
+RUN_INTEGRATION_TESTS=false
+
+# Example usage:
+# export FASTMAIL_AUTH_TOKEN_TEST=your_token_here
+# python run_tests.py integration
+
+# Optional: Override JMAP base URL for testing
+# FASTMAIL_JMAP_BASE_URL_TEST=https://api.fastmail.com/jmap/api/ 
