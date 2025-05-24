@@ -48,8 +48,8 @@ Errors happen. You can configure your MCP to write to a debug log to help resolv
 		"emails": {
 			"env": {
 				"JMAP_API_TOKEN": "your-api-token",
-            	"LOG_LEVEL": "DEBUG",
-            	"LOG_FILE": "/path/to/log/jmap-mcp-debug.log"
+				"LOG_LEVEL": "DEBUG",
+				"LOG_FILE": "/path/to/log/jmap-mcp-debug.log"
 			},
 			"command": "uv",
 			"args": [
