@@ -6,7 +6,7 @@ I built this for personal use, but others are welcome to try it out.
 
 ## Setup
 
-*Ensure you have [uv](https://github.com/astral-sh/uv) and a valid API token for your JMAP server.
+*Ensure you have [uv](https://github.com/astral-sh/uv) and a valid API token for your JMAP server.*
 
 ### 1. Setup the Repo
 
