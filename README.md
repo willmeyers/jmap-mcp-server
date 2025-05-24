@@ -16,7 +16,7 @@ Clone the repo and run
 uv pip install pyproject.toml
 ```
 
-Add the MCP server config to your client.
+### 2. Add the MCP server config to your client.
 
 ```json
 {
