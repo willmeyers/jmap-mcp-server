@@ -16,6 +16,8 @@ Clone the repo and run
 uv pip install pyproject.toml
 ```
 
+Add the MCP server config to your client.
+
 ```json
 {
 	"mcpServers": {
@@ -27,9 +29,9 @@ uv pip install pyproject.toml
 			"args": [
 				"--directory",
 				"/absolute/path/to/.../jmap-mcp",
+				"uv",
 				"run",
-				"python",
-				"jmap_mcp/mcp_server.py"
+				"jmap-mcp-server"
 			]
 		}
 	}
@@ -46,16 +48,16 @@ Errors happen. You can configure your MCP to write to a debug log to help resolv
 		"emails": {
 			"env": {
 				"JMAP_API_TOKEN": "your-api-token",
-            "LOG_LEVEL": "DEBUG",
-            "LOG_FILE": "/path/to/log/jmap-mcp-debug.log"
+            	"LOG_LEVEL": "DEBUG",
+            	"LOG_FILE": "/path/to/log/jmap-mcp-debug.log"
 			},
 			"command": "uv",
 			"args": [
 				"--directory",
 				"/absolute/path/to/.../jmap-mcp",
+				"uv",
 				"run",
-				"python",
-				"jmap_mcp/mcp_server.py"
+				"jmap-mcp-server",
 			]
 		}
 	}
