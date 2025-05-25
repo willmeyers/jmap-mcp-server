@@ -1,6 +1,6 @@
 # JMAP-MCP Server
 
-A Python-based server that bridges the Machine-Crafted Protocol (MCP) with JMAP (JSON Mail Access Protocol), enabling basic email operations through MCP clients.
+A Python-based server that bridges the Model Context Protocol (MCP) with JMAP (JSON Mail Access Protocol), enabling basic email operations through MCP clients.
 
 I built this for personal use, but others are welcome to try it out.
 
